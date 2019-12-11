@@ -1,0 +1,41 @@
+{
+  "name": "task-manager-react",
+  "version": "1.0.0",
+  "description": "UI for task-manager-spring",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrykho/task-manager-react.git"
+  },
+  "author": "Patryk Holody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrykho/task-manager-react/issues"
+  },
+  "homepage": "https://github.com/patrykho/task-manager-react#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@material-ui/core": "^4.7.2",
+    "@material-ui/icons": "^4.5.1",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "@types/axios": "^0.14.0",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.3"
+  }
+}
